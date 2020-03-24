@@ -25,7 +25,6 @@ self.client.cookies[session_cookie_name] = session.session_key
 
 ### How to run
 * clone the repository
-* create `venv` with Python 3.7.6 and activate
+* create `venv` with Python 3.7.6 and **activate**
 * `$ pip install -r requirements.txt`
-* `$ cd test_session_variables`
 * `$ ./manage.py test`
