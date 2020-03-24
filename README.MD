@@ -23,6 +23,9 @@ session_cookie_name = django_settings.SESSION_COOKIE_NAME
 self.client.cookies[session_cookie_name] = session.session_key
 ```
 
+For wider explanation, please see my
+[blog post](https://kurzacz.com/writing-django-tests-for-session-variables-stored-in-cookies/)
+
 ### How to run
 * clone the repository
 * create `venv` with Python 3.7.6 and **activate**
